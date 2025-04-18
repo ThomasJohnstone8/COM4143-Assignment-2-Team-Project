@@ -7,8 +7,8 @@ body {
     text-align: center;
 }
 .phone {
-    width: 400px; /* Adjust for desired phone size */
-    height: 600px;
+    width: 203px; /* Adjust for desired phone size */
+    height: 420px;
     border: 15px solid black;
     border-radius: 30px; /* Rounded corners for phone shape */
     background-color: lightblue;

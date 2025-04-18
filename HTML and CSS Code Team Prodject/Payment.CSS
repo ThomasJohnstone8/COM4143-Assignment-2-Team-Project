@@ -10,7 +10,7 @@ body {
 }
 .phone {
     width: 203px; /* Adjust for desired phone size */
-    height: 405px;
+    height: 420px;
     border: 10px solid black;
     border-radius: 30px; /* Rounded corners for phone shape */
     background-color: lightblue;
