@@ -1,0 +1,58 @@
+/* style-screen13.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.phone {
+    width: 203px; /* Adjust for desired phone size */
+    height: 405px;
+    border: 10px solid black;
+    border-radius: 30px; /* Rounded corners for phone shape */
+    background-color: lightblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+    width: 100%;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.payment-info p, .payment-method p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.method-btn, .pay-now, .previous-page {
+    background-color: #007bff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.method-btn:hover, .pay-now:hover, .previous-page:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    width: 100%;
+}

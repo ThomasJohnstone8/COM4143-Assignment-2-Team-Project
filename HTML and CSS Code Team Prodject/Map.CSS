@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.phone {
+    width: 402px; /* Adjust for desired phone size */
+    height: 874px;
+    border: 15px solid black;
+    border-radius: 30px; /* Rounded corners for phone shape */
+    background-color: lightblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue /* Optional background color */
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: black;
+}
+
+nav button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
