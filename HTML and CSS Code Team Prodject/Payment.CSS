@@ -6,30 +6,30 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
 }
 .phone {
     width: 203px; /* Adjust for desired phone size */
     height: 420px;
-    border: 10px solid black;
+    border: 15px solid black;
     border-radius: 30px; /* Rounded corners for phone shape */
     background-color: lightblue;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
 header {
     background-color: lightblue;
-    padding: 10px;
+    
     width: 100%;
 }
 
 main {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
 }
 
 .payment-info p, .payment-method p {
@@ -41,7 +41,7 @@ main {
     background-color: #007bff;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -53,6 +53,5 @@ main {
 
 footer {
     background-color: lightblue;
-    padding: 10px;
     width: 100%;
 }
