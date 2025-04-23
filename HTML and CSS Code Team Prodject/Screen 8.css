@@ -75,7 +75,7 @@ select, input[type="checkbox"], input[type="range"] {
 }
 
 a {
-    font-size: 12px;
+    font-size: 9px;
     color: blue;
     text-decoration: underline;
 }
@@ -105,4 +105,14 @@ a:hover {
 
 .accessibility-btn:hover {
     background-color: #3b4c98;
+}
+a button{
+    font-size: 9px;
+    width: 55.6px;
+    height: 42.5px;
+    border:1px solid white;
+}
+
+a button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
 }
