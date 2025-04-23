@@ -55,3 +55,13 @@ footer {
     background-color: lightblue;
     width: 100%;
 }
+a button{
+    font-size: 9px;
+    width: 55.6px;
+    height: 42.5px;
+    border:1px solid white;
+}
+
+a button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
