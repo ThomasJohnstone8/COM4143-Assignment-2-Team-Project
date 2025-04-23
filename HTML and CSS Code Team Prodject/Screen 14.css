@@ -63,3 +63,10 @@ body {
     font-size: 12px;
     color: gray;
 }
+a button{
+    font-size: 9px;
+    width: 55.6px;
+    height: 25.5px;
+    border:1px solid;
+    background-color: rgb(225, 219, 219);
+}
