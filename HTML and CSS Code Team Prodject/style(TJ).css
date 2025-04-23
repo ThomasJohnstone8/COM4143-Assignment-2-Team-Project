@@ -134,3 +134,9 @@ a {
 .nav-button:hover {
   background-color: #d0e2ff;
 }
+a button{
+  font-size: 9px;
+  width: 55.6px;
+  height: 42.5px;
+  border:1px solid white;
+}
