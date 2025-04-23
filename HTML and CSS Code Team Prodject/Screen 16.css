@@ -96,6 +96,7 @@ body {
 }
 
 .confirm-btn {
+    display: inline-block;
     width: 170px;
     padding: 6px;
     font-size: 12px;
@@ -104,7 +105,12 @@ body {
     border: 1px solid #333;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
 }
+
 
 .cancel-btn {
     width: 120px;
