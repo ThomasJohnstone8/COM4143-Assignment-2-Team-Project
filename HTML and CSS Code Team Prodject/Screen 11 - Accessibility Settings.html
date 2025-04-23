@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Screen 8.css">
+        <title>Accessibility Settings</title>
+    </head>
+    <body>
+        <div class="phone">
+            <header>
+                <img src="1427092.png" class="logo">
+                <h1>Accessibility Settings</h1>
+            </header>
+            <div class="settings-section">
+                <div class="setting-item">
+                    <h2>Text-to-Speech</h2>
+                    <p>Enable voice feedback for easier navigation.</p>
+                    <label for="text-to-speech">
+                        <input type="checkbox" id="text-to-speech" name="text-to-speech">
+                        Enable Text-to-Speech
+                    </label>
+                </div>
+                <hr class="divider">
+                <div class="setting-item">
+                    <h2>Deuteranopia (Red-Green Color Blindness)</h2>
+                    <p>Adjust screen colors for red-green color blindness.</p>
+                    <label for="deuteranopia">
+                        <input type="checkbox" id="deuteranopia" name="deuteranopia">
+                        Enable Deuteranopia Mode
+                    </label>
+                </div>
+                <hr class="divider">
+                <div class="setting-item">
+                    <h2>Tritanopia (Blue-Yellow Color Blindness)</h2>
+                    <p>Adjust screen colors for blue-yellow color blindness.</p>
+                    <label for="tritanopia">
+                        <input type="checkbox" id="tritanopia" name="tritanopia">
+                        Enable Tritanopia Mode
+                    </label>
+                </div>
+                <hr class="divider">
+                <div class="setting-item">
+                    <h2>Text Size</h2>
+                    <p>Adjust text size for easier readability.</p>
+                    <label for="text-size">
+                        Text Size: <span id="text-size-value">16</span>px
+                        <input type="range" id="text-size" name="text-size" min="10" max="24" value="16">
+                    </label>
+                </div>
+                <hr class="divider">
+                <div class="setting-item">
+                    <h2>High Contrast</h2>
+                    <p>Enable high contrast mode for better visibility.</p>
+                    <label for="high-contrast">
+                        <input type="checkbox" id="high-contrast" name="high-contrast">
+                        Enable High Contrast Mode
+                    </label>
+                </div>
+
+                <div class="setting-item">
+                    <a href="Screen 8 - Settings Menu.html">
+                        <button class="return-btn">Go Back</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const textSizeSlider = document.getElementById('text-size');
+            const textSizeValue = document.getElementById('text-size-value');
+
+            textSizeSlider.addEventListener('input', function() {
+                const newSize = textSizeSlider.value;
+                textSizeValue.textContent = newSize;
+                document.body.style.fontSize = newSize + 'px';
+            });
+        </script>
+    </body>
+</html>

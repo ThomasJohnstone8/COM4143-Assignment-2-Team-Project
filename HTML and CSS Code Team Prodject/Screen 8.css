@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.phone {
+    width: 203px;
+    height: 420px;
+    border: 15px solid black;
+    border-radius: 30px;
+    background-color: lightblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 18px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.settings-section {
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.setting-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.setting-item h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.setting-item p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+select, input[type="checkbox"], input[type="range"] {
+    margin-top: 5px;
+}
+
+a {
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.accessibility-btn {
+    background-color: #4c5eaf;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.accessibility-btn:hover {
+    background-color: #3b4c98;
+}

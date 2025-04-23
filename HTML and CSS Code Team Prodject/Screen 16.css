@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0e0e0;
+}
+
+.phone {
+    width: 203px;
+    height: 420px;
+    border: 15px solid black;
+    border-radius: 30px;
+    background: linear-gradient(160deg, #c7dbf4, #dce4f6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.time {
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    left: 12px;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: white;
+    cursor: pointer;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.label-text {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 8px 0 4px;
+}
+
+.time-input {
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.or-text {
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+.input-group {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-block label {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.input-block input {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.confirm-btn {
+    width: 170px;
+    padding: 6px;
+    font-size: 12px;
+    margin: 5px 0;
+    background: #d0e3fa;
+    border: 1px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    width: 120px;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #f0f0f0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+}
